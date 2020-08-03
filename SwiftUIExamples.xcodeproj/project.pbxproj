@@ -66,8 +66,7 @@
 		9754EBD424D7A19F0037DE8E /* SwiftUIExamples */ = {
 			isa = PBXGroup;
 			children = (
-				9754EBED24D840310037DE8E /* List */,
-				97D03C5324D8961700656608 /* Slider */,
+				97F706BC24D8B143009DD21A /* Examples */,
 				9754EBD524D7A19F0037DE8E /* AppDelegate.swift */,
 				9754EBD724D7A19F0037DE8E /* SceneDelegate.swift */,
 				9754EBD924D7A19F0037DE8E /* ContentView.swift */,
@@ -88,22 +87,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9754EBED24D840310037DE8E /* List */ = {
+		97F706BC24D8B143009DD21A /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				97D03C5624D8967F00656608 /* ColorSlider.swift */,
 				9754EBEB24D7A5F10037DE8E /* GroupedListExampleView.swift */,
 				9754EBE924D7A55D0037DE8E /* ListExampleView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		97D03C5324D8961700656608 /* Slider */ = {
-			isa = PBXGroup;
-			children = (
 				97D03C5424D8963E00656608 /* SliderExampleView.swift */,
-				97D03C5624D8967F00656608 /* ColorSlider.swift */,
 			);
-			path = Slider;
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

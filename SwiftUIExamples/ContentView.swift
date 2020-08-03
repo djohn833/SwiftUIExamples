@@ -12,15 +12,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("List")) {
-                    NavigationLink(destination: ListExampleView()) {
-                        Text("List")
-                    }
-                    NavigationLink(destination: GroupedListExampleView()) {
-                        Text("Grouped List")
-                    }
+                NavigationLink(destination: ListExampleView()) {
+                    Text("List")
                 }
-                SingleItemSection(name: "Slider", destination: SliderExampleView())
+                NavigationLink(destination: GroupedListExampleView()) {
+                    Text("Grouped List")
+                }
+                NavigationLink(destination: SliderExampleView()) {
+                    Text("Slider")
+                }
             }
             .navigationBarTitle("Swift UI Examples")
             .listStyle(GroupedListStyle())

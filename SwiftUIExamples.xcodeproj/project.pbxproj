@@ -83,8 +83,8 @@
 		9754EBED24D840310037DE8E /* List */ = {
 			isa = PBXGroup;
 			children = (
-				9754EBE924D7A55D0037DE8E /* ListExampleView.swift */,
 				9754EBEB24D7A5F10037DE8E /* GroupedListExampleView.swift */,
+				9754EBE924D7A55D0037DE8E /* ListExampleView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";

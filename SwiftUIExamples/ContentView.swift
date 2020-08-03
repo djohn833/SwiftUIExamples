@@ -20,6 +20,7 @@ struct ContentView: View {
                         Text("Grouped List")
                     }
                 }
+                SingleItemSection(name: "Slider", destination: SliderExampleView())
             }
             .navigationBarTitle("Swift UI Examples")
             .listStyle(GroupedListStyle())

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9713F79A24D8D84B00C6C138 /* TabExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713F79924D8D84B00C6C138 /* TabExampleView.swift */; };
+		9713F79C24D8E17F00C6C138 /* FormExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713F79B24D8E17F00C6C138 /* FormExampleView.swift */; };
 		9754EBD624D7A19F0037DE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754EBD524D7A19F0037DE8E /* AppDelegate.swift */; };
 		9754EBD824D7A19F0037DE8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754EBD724D7A19F0037DE8E /* SceneDelegate.swift */; };
 		9754EBDA24D7A19F0037DE8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754EBD924D7A19F0037DE8E /* ContentView.swift */; };
@@ -18,9 +20,12 @@
 		97D03C5524D8963E00656608 /* SliderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D03C5424D8963E00656608 /* SliderExampleView.swift */; };
 		97D03C5724D8967F00656608 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D03C5624D8967F00656608 /* ColorSlider.swift */; };
 		97F706BB24D8AF7B009DD21A /* SingleItemSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F706BA24D8AF7B009DD21A /* SingleItemSection.swift */; };
+		97F706BE24D8B1FD009DD21A /* ButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F706BD24D8B1FD009DD21A /* ButtonExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9713F79924D8D84B00C6C138 /* TabExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExampleView.swift; sourceTree = "<group>"; };
+		9713F79B24D8E17F00C6C138 /* FormExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExampleView.swift; sourceTree = "<group>"; };
 		9754EBD224D7A19F0037DE8E /* SwiftUIExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9754EBD524D7A19F0037DE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9754EBD724D7A19F0037DE8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		97D03C5424D8963E00656608 /* SliderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExampleView.swift; sourceTree = "<group>"; };
 		97D03C5624D8967F00656608 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 		97F706BA24D8AF7B009DD21A /* SingleItemSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleItemSection.swift; sourceTree = "<group>"; };
+		97F706BD24D8B1FD009DD21A /* ButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +96,12 @@
 		97F706BC24D8B143009DD21A /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				97F706BD24D8B1FD009DD21A /* ButtonExampleView.swift */,
 				97D03C5624D8967F00656608 /* ColorSlider.swift */,
+				9713F79B24D8E17F00C6C138 /* FormExampleView.swift */,
 				9754EBEB24D7A5F10037DE8E /* GroupedListExampleView.swift */,
 				9754EBE924D7A55D0037DE8E /* ListExampleView.swift */,
+				9713F79924D8D84B00C6C138 /* TabExampleView.swift */,
 				97D03C5424D8963E00656608 /* SliderExampleView.swift */,
 			);
 			path = Examples;
@@ -174,9 +183,12 @@
 				9754EBD624D7A19F0037DE8E /* AppDelegate.swift in Sources */,
 				9754EBD824D7A19F0037DE8E /* SceneDelegate.swift in Sources */,
 				9754EBDA24D7A19F0037DE8E /* ContentView.swift in Sources */,
+				97F706BE24D8B1FD009DD21A /* ButtonExampleView.swift in Sources */,
 				9754EBEC24D7A5F10037DE8E /* GroupedListExampleView.swift in Sources */,
+				9713F79A24D8D84B00C6C138 /* TabExampleView.swift in Sources */,
 				9754EBEA24D7A55D0037DE8E /* ListExampleView.swift in Sources */,
 				97F706BB24D8AF7B009DD21A /* SingleItemSection.swift in Sources */,
+				9713F79C24D8E17F00C6C138 /* FormExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,18 +12,27 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                NavigationLink(destination: ButtonExampleView()) {
+                    Text("Button")
+                }
+                NavigationLink(destination: FormExampleView()) {
+                    Text("Form")
+                }
+                NavigationLink(destination: TabExampleView()) {
+                    Text("Tab")
+                }
                 NavigationLink(destination: ListExampleView()) {
                     Text("List")
                 }
                 NavigationLink(destination: GroupedListExampleView()) {
-                    Text("Grouped List")
+                    Text("List - Grouped")
                 }
                 NavigationLink(destination: SliderExampleView()) {
                     Text("Slider")
                 }
             }
-            .navigationBarTitle("Swift UI Examples")
             .listStyle(GroupedListStyle())
+            .navigationBarTitle("Swift UI Examples")
         }
     }
 }
